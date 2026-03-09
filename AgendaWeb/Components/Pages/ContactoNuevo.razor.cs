@@ -31,4 +31,3 @@ namespace AgendaWeb.Components.Pages
         }
     }
 }
-

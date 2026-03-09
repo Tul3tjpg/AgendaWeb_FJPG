@@ -4,9 +4,11 @@ namespace AgendaWeb.Data.DTOS.Contactos
 {
     public class ContactoNuevoDto
     {
-        [Required]
+        [Required(ErrorMessage = "El campo Nombre es requerido")]
         public string Nombre { get; set; }
         public string Telefono { get; set; }
+
+        [Required(ErrorMessage = "El campo Email es requerido")]
         public string Email { get; set; }
     }
 }
